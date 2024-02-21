@@ -8,7 +8,7 @@ namespace StudentAdmin
         public static void Main(string[] args)
         {
             DatabaseManager dbm = new DatabaseManager("Students.sqlite");
-
+            //New comment
             Student john = new Student();
             john.ID = 1;
             john.Name = "John Doe";
